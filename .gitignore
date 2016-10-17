@@ -10,3 +10,19 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# OS X
+.DS_Store
+
+# Gradle
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/*
+
+# Eclipse
+.project
+.classpath
+.settings/*
+*.launch
+bin/
+eclipse/
+build/
